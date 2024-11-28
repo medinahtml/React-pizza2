@@ -1,0 +1,15 @@
+.pizzaList{
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.pizzaList>h1{
+    font-size: 50px;
+}
+.pizzaList>main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    
+}

@@ -1,0 +1,98 @@
+.pizzaCard{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.pizzaCard>p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.pizzaCard>main{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #f3f3f3;
+    border-radius: 15px;
+}
+.pizzaCard>main>p{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 10px;
+}
+.pizzaCard>main>p>span{
+    cursor: pointer;
+    transition: .5s;
+}
+
+.filterUp{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.filterDown{
+    padding: 10px;
+    width: 60px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.filterUp_active{
+    background: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.filterDown_active{
+    background: white;
+    padding: 10px;
+    width: 60px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.filterDown:hover,.filterUp:hover{
+    background:white ;
+}
+.pizzaCard>div{
+    width: 90%;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+.pizzaCard>div> button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border:1px solid #eb5a1e ;
+    color: #eb5a1e;
+    font-weight: 600;
+    background: none;
+    cursor: pointer;
+    transition: .4;
+}
+.pizzaCard>div>button:hover{
+    background: #eb5a1e;
+    color: white;
+}
+.pizzaCard>div>button>b{
+    background: #eb5a1e;
+    border-radius: 50%;
+    padding: 1px 5px;
+    color: white;
+    text-align: center;
+    transition: .4;
+}
+.pizzaCard>div>button:hover>b{
+    background: white;
+    color: #eb5a1e;
+}
+.pizzaCard>div>button:hover>img{
+    content: url("../../../assets/plusWhite.svg");
+}
